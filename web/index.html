@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>MiP Control Panel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+</head>
+
+<body>
+
+    <div class="mdl-layout mdl-js-layout">
+
+        <main class="mdl-layout__content">
+
+            <h3>MiP Control</h3>
+
+            <button onclick="connect()" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+                Connect
+            </button>
+
+            <h3>Commands</h3>
+
+            <button onclick="moveForward()" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                Forward
+            </button>
+
+            <button onclick="moveBackward()" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                Backward
+            </button>
+
+            <button onclick="turnLeft()" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                Left
+            </button>
+
+            <button onclick="turnRight()" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                Right
+            </button>
+        </main>
+    </div>
+
+    <script src="mip.js"></script>
+</body>
+
+</html>
