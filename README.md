@@ -5,3 +5,5 @@
 Use with the [MiP robot](http://wowwee.com/mip).
 
 Currently works only with Chrome after enabling Web Bluetooth in `chrome://flags`.
+
+![Web Bluetooth MiP in Action](screenshots/interface.jpg)
