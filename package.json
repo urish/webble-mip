@@ -4,7 +4,8 @@
   "description": "MiP Robot Web Bluetooth App",
   "main": "index.js",
   "scripts": {
-    "start": "live-server web"
+    "start": "live-server web",
+    "deploy": "gh-pages -d web"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
   },
   "homepage": "https://github.com/urish/webble-mip#readme",
   "devDependencies": {
+    "gh-pages": "0.11.0",
     "live-server": "1.0.0"
   }
 }
